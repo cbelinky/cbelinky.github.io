@@ -14,18 +14,20 @@ body {
   width: 70%;
   min-width: 800px;
   margin: 0 auto;
-  background-color: #6091C3;
+  background-color: #70aae4;
 }
 
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
   color: #2a2a2a;
 }
 
@@ -65,7 +67,7 @@ body > * {
 }
 
 .main, .header, nav, .article, .aside, .footer, section {
-  background-color: rgba(0,255,0,0.5);
+  background-color: rgba(34, 209, 142, 0.5);
   padding: 1%;
 }
 
