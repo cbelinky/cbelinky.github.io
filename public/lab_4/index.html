@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>charlie belinky's Lab 4</title>
+    <meta name="author" content="charlie belinky">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>charlie belinky's lab 4</h1>
+      <div class = "container">
+        <form action="/api" method="post">
+            <ul class="flex-outer">
+               <li>
+                   <label for="fname">First name:</label><br>
+                   <input type="text" id="fname" name="fname" maxlength="140"><br>
+               </li>
+               <li>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" maxlength="140"><br>
+               </li>
+               <li>
+                <label for="email">Email address:</label><br>
+                <input type="email" id="email" name="email" maxlength="140"><br>
+               </li>
+               <li>
+                <label for="phone">Phone number:</label><br>
+                <input type="tel" id="phone" name="phone" maxlength="140"><br>
+               </li>
+               <li>
+                <label for="message">Text Field:</label>
+                <textarea id="message" name="message" rows="5" cols="33"></textarea>
+               </li>
+               <li>
+                   <ul class="flex-inner">
+                        <li>
+                            <input type="checkbox" id="youngage" name="youngage">
+                            <label for="youngage"> 18-35</label><br>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="oldage" name="oldage">
+                            <label for="oldage"> 35-50</label><br>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="olderage" name="olderage">
+                            <label for="olderage"> 50-65</label><br>
+                        </li>
+                    </ul>
+               </li>
+            </ul>
+            <button type="submit">Submit</button>
+        </form>
+      </div>
+  </body>
+  </html>
