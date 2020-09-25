@@ -1,0 +1,5 @@
+.flex-outer li, .flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

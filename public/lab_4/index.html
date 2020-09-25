@@ -13,11 +13,11 @@
         <form action="/api" method="post">
             <ul class="flex-outer">
                <li>
-                   <label for="fname">First name:</label><br>
+                   <label for="fname">First Name:</label><br>
                    <input type="text" id="fname" name="fname" maxlength="140"><br>
                </li>
                <li>
-                <label for="lname">Last name:</label><br>
+                <label for="lname">Last Name:</label><br>
                 <input type="text" id="lname" name="lname" maxlength="140"><br>
                </li>
                <li>
@@ -33,6 +33,7 @@
                 <textarea id="message" name="message" rows="5" cols="33"></textarea>
                </li>
                <li>
+                   <p>Age</p>
                    <ul class="flex-inner">
                         <li>
                             <input type="checkbox" id="youngage" name="youngage">
@@ -49,7 +50,7 @@
                     </ul>
                </li>
             </ul>
-            <button type="submit">Submit</button>
+            <button name="submit" id="submit" type="submit">Submit</button>
         </form>
       </div>
   </body>
