@@ -8,52 +8,61 @@
   </head>
 
   <body>
-    <h1>charlie belinky's lab 4</h1>
-    <div class = "container">
+    <div class="wrapper">
+      <div class="container">
+        <h1>charlie belinky's lab 4</h1>
         <form action="/api" method="post">
-            <ul class="flex-outer">
-               <li>
-                   <label for="fname">First Name:</label><br>
-                   <input type="text" id="fname" name="fname" maxlength="140"><br>
-               </li>
-               <li>
-                <label for="lname">Last Name:</label><br>
-                <input type="text" id="lname" name="lname" maxlength="140"><br>
-               </li>
-               <li>
-                <label for="email">Email address:</label><br>
-                <input type="email" id="email" name="email" maxlength="140"><br>
-               </li>
-               <li>
-                <label for="phone">Phone number:</label><br>
-                <input type="tel" id="phone" name="phone" maxlength="140"><br>
-               </li>
-               <li>
-                <label for="message">Text Field:</label>
-                <textarea id="message" name="message" rows="5" cols="33"></textarea>
-               </li>
-               <li>
-                   <p>Age</p>
-                   <ul class="flex-inner">
-                        <li>
-                            <input type="checkbox" id="youngage" name="youngage">
-                            <label for="youngage"> 18-35</label><br>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="oldage" name="oldage">
-                            <label for="oldage"> 35-50</label><br>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="olderage" name="olderage">
-                            <label for="olderage"> 50-65</label><br>
-                        </li>
-                    </ul>
-               </li>
-               <li>
-               <button name="submit" id="submit" type="submit">Submit Form</button>
-               </li>
-            </ul>
+          <ul class="flex-outer">
+            <li>
+              <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="fname" maxlength="140">
+            </li>
+            <li>
+              <label for="lname">Last Name:</label>
+              <input type="text" id="lname" name="lname" maxlength="140">
+            </li>
+            <li>
+              <label for="email">Email address:</label>
+              <input type="email" id="email" name="email" maxlength="140">
+            </li>
+            <li>
+              <label for="phone">Phone number:</label>
+              <input type="tel" id="phone" name="phone" maxlength="140">
+            </li>
+            <li>
+              <label for="message">Text Field:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="33"
+              ></textarea>
+            </li>
+            <li>
+              <p>Age</p>
+              <ul class="flex-inner">
+                <li>
+                  <input type="checkbox" id="youngage" name="youngage">
+                  <label for="youngage"> 18-35</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="oldage" name="oldage">
+                  <label for="oldage"> 35-50</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="olderage" name="olderage">
+                  <label for="olderage"> 50-65</label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button name="submit" id="submit" type="submit">
+                Submit Form
+              </button>
+            </li>
+          </ul>
         </form>
       </div>
+    </div>
   </body>
-  </html>
+</html>

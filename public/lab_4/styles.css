@@ -1,5 +1,16 @@
 body {
     background: #20b4da;
+    padding: 50px 0;
+  }
+
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container * {
+    box-sizing: border-box;
   }
  
   .flex-outer li, .flex-inner {
@@ -8,7 +19,7 @@ body {
     align-items: center;
   }
 
-  .flex-outer, ul.flex-outer {
+  .flex-outer {
       max-width: 800px;
       padding: 0px 16px;
   }
@@ -28,6 +39,14 @@ body {
       text-transform: uppercase;
       letter-spacing: 1.2px;
       border-radius: 3px;
+  }
+
+  .flex-inner li {
+      width: 80px;
+  }
+
+  .flex-inner {
+      justify-content: space-between;
   }
 
   .flex-outer > li > label, .flex-outer li p {
