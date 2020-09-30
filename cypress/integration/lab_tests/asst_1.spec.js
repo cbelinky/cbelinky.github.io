@@ -72,7 +72,7 @@ describe('Assignment 1', () => {
       });
       it('Successfully loads with valid HTML', () => {
         cy.fixture('test_values').then((json) => {
-          const labUrl = `${json.test_context || ''}/answer_key/private/asst-1/`;
+          const labUrl = `${json.test_context || ''}/asst-1/`;
           cy.visit(labUrl); // change URL to match your dev URL
           cy.htmlvalidate();
         });
