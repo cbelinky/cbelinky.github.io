@@ -7,6 +7,8 @@ html, body {
 
   body {
     background: rgb(42, 160, 225);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
 }
 
 
@@ -22,7 +24,8 @@ html, body {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 15px;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
     margin-bottom: 15px;
     flex-direction: row;
   }
@@ -41,7 +44,6 @@ html, body {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    justify-content: center;
 }
 
 .wrapper .container > div{
@@ -62,7 +64,6 @@ html, body {
     border: rgb(148, 83, 0);
     border-radius: 4px;
     border-width: 1px;
-    width: 100%;
     border-style: solid;
 }
 
