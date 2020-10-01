@@ -21,8 +21,10 @@ html, body {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 15px;
+    padding: 15px;
     font-family: 'Shrikhand', cursive;
+    margin-bottom: 15px;
+    flex-direction: row;
   }
 
 /* Part 3, 4, 5, 6 and 7 */
@@ -31,6 +33,13 @@ html, body {
     justify-content: center;
     background: rgb(14, 101, 148);
     padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 /* Part 8*/
@@ -68,6 +77,7 @@ h2 {
 }
 
 /* Part 13 */
+
 
 /* Part 15 and 16 */
 @media only screen and (max-width: 1000px) {
