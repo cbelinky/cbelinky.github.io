@@ -1,10 +1,62 @@
+
+/* General Set Up*/
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: rgb(42, 160, 225);
+}
+
+
+/* Begin Lab Questions*/
+
+/* This Section is all of part two except the last bullet about the page being compressed*/
 .header {
     background: rgb(148, 83, 0);
     color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
   }
-body {
-    background: rgb(42, 160, 225);
-}
+
+/* Part 3, 4, 5 and 7 */
 .wrapper {
-    background: rgb(14, 101, 148);
+    display: flex;
+    justify-content: center;
 }
+
+.container {
+    max-width: 960px;
+    background: rgb(14, 101, 148);
+    display: flex;
+    justify-content: center space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Part 8*/
+.wrapper > .content {
+    width: 66%;
+}
+.wrapper > .aside {
+    width: 33%;
+}
+
+/* Part 15 and 16 */
+@media only screen and (max-width: 1000px) {
+    .wrapper {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .wrapper > .aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+    }
+  }
