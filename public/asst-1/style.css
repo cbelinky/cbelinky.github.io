@@ -27,18 +27,18 @@ html, body {
 /* Part 3, 4, 5, 6 and 7 */
 .wrapper {
     display: flex;
+    justify-content: center;
     background: rgb(14, 101, 148);
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+    padding: 20px;
 }
 
 /* Part 8*/
 .wrapper > .content {
     max-width: 960px;
-    width: 66%;
+    width: 60%;
 }
 .wrapper > .aside {
-    width: 33%;
+    width: 30%;
 }
 
 /* Part 10 and 11 */
@@ -46,6 +46,18 @@ html, body {
     border: rgb(148, 83, 0);
     border-width: 1px;
     border-radius: 4px;
+    width: 100%;
+}
+
+.content {
+    background: rgb(42, 160, 225);
+    margin: 10px;
+}
+
+.aside {
+    background: rgb(42, 160, 225);
+    margin: 10px;
+    padding: 10px;
 }
 
 /* Part 15 and 16 */
