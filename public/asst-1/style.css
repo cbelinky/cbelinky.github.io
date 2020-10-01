@@ -1,5 +1,5 @@
 
-/* General Set Up*/
+/* General Set Up */
 html, body {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ html, body {
 
 /* Begin Lab Questions*/
 
-/* This Section is all of part two except the last bullet about the page being compressed*/
+/* This Section is all of part two*/
 .header {
     background: rgb(148, 83, 0);
     color: white;
@@ -47,6 +47,13 @@ html, body {
     width: 33%;
 }
 
+/* Part 10 and 11 */
+.aside > img {
+    border: rgb(148, 83, 0);
+    border-width: 1px;
+    border-radius: 4px;
+}
+
 /* Part 15 and 16 */
 @media only screen and (max-width: 1000px) {
     .wrapper {
@@ -58,5 +65,9 @@ html, body {
         flex-direction: row;
         justify-content: space-evenly;
         margin-bottom: 15px;
+    }
+    /* Last Bullet of part 2 */
+    .header {
+        justify-content: center;
     }
   }
