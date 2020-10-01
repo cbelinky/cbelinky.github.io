@@ -40,6 +40,12 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.wrapper .container > div{
+    margin-right: 15px;
 }
 
 /* Part 8*/
@@ -54,9 +60,10 @@ html, body {
 /* Part 10 and 11 */
 .aside > img {
     border: rgb(148, 83, 0);
-    border-width: 1px;
     border-radius: 4px;
+    border-width: 1px;
     width: 100%;
+    border-style: solid;
 }
 
 .content {
