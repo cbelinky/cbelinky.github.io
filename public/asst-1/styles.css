@@ -27,7 +27,6 @@ html, body {
     padding: 15px;
     font-weight: 700;
     flex-direction: row;
-    margin: 0;
   }
 
 /* Part 3, 4, 5, 6 and 7 */
@@ -68,6 +67,7 @@ html, body {
     flex: 0 1 auto;
     margin-right: 15px;
     width: 175px;
+    font-weight: 400;
 }
 
 .aside p {
