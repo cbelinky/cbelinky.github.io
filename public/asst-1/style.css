@@ -103,4 +103,11 @@ h2 {
     .header {
         justify-content: center;
     }
+    .container{
+        justify-content: center;
+    }
+    .wrapper .container > div{
+        flex: 1 0 auto;
+        margin-right: 0px;
+    }
   }
