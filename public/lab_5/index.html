@@ -81,29 +81,30 @@
           .then((response) => response.text())
           .then((response) => {
             console.log(response);
+
+            document.body.style.backgroundColor = "#cc99ff";
+
+            const page_title = document.querySelector("title");
+            page_title.innerHTML = "charlie belinky's lab 5";
+
+            const new_head = document.querySelector("h1");
+            new_head.innerHTML = "Lab 5 for charlie belinky";
+
+            const flex_outer = document.querySelector(".flex-outer");
+            flex_outer.style = "Margin: 0 auto";
+
+            const fruit_label = document.querySelector(".checkbox-list-label");
+            fruit_label.innerHTML = "Fruits";
+
+            const fruits = Array.from(
+              document.querySelectorAll(".flex-inner label")
+            );
+            const fruits_to_add = ["kiwi", "avocado", "cantaloupe"];
+            var i;
+            for (i = 0; i <= fruits_to_add.length; i++) {
+              fruits[i].innerHTML = fruits_to_add[i];
+            }
           });
-        document.body.style.backgroundColor = "#cc99ff";
-
-        const page_title = document.querySelector("title");
-        page_title.innerHTML = "charlie belinky's lab 5";
-
-        const new_head = document.querySelector("h1");
-        new_head.innerHTML = "Lab 5 for charlie belinky";
-
-        const flex_outer = document.querySelector(".flex-outer");
-        flex_outer.style = "Margin: 0 auto";
-
-        const fruit_label = document.querySelector(".checkbox-list-label");
-        fruit_label.innerHTML = "Fruits";
-
-        const fruits = Array.from(
-          document.querySelectorAll(".flex-inner label")
-        );
-        var fruits_to_add = ["kiwi", "avocado", "cantaloupe"];
-        var i;
-        for (i = 0; i <= fruits_to_add.length; i++) {
-          fruits[i].innerHTML = fruits_to_add[i];
-        }
       }
     </script>
   </body>
