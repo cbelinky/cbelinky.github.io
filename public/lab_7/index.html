@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
     - set this up as an HTML page with correct wrapper and container
     - this is to make sure your chart isn't Huge when it appears
@@ -11,10 +12,10 @@
 -->
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>charlie belinky's lab 7</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -22,12 +23,12 @@
     ></script>
   </head>
   <body>
+    <div class="header">
+        <h1>charlie belinky's lab 7!</h1>
+      </div>
     <div class="wrapper">
       <div class="container flex-outer">
-        <div class="header">
-          <h1>charlie belinky's lab 7!</h1>
-        </div>
-        <div class="chartContainer" id="chartContainer"></div>
+        <div id="chartContainer"></div>
         <form>
             <button type="submit" class="submit" name="submit">
                 go! go! go!
@@ -35,6 +36,7 @@
         </form>
       </div>
     </div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script src="canvasjs.min.js"></script>
     <script src="script.js"></script>
   </body>
